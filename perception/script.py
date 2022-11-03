@@ -31,9 +31,9 @@ def cv2_imshow(img):
 
 # %%
 img = cv.imread("red.png")
-scale_percent = 20 # percent of original size
-width = int(img.shape[1] * scale_percent / 100)
-height = int(img.shape[0] * scale_percent / 100)
+scale_percent = 400/img.shape[0] # percent of original size
+width = int(img.shape[1] * scale_percent )
+height = int(img.shape[0] * scale_percent)
 # sq = 300
 # height, width = sq,sq
 

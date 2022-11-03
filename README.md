@@ -6,7 +6,7 @@
     - identidying the cones
     - getting their positions
     - drawing the lines across them
-- I resized the image to 20% of its original resolution to make the code run faster
+- I resized the image to so that the height is always 400px and the aspect ratio is preserved
 - identifying the cone became easy once I filtered the image by the color red and brightness
 - after that I found the pixel positions of the cones by checking specific pixel arrangements
 - then I calculates the tan values for all combinations of 2 points with angles which are more than 45 degrees
@@ -24,6 +24,10 @@
 - math
 - numpy
 - matplotlib
+
+## Improvements Possible:
+- accomadating for false positives in cone detection
+- accomadating for abnormal angles in lines
 
 
  
